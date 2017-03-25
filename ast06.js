@@ -26,7 +26,7 @@ var client = new twitter({
 // Start Monitor
 console.log("\033[0m");
 console.log("\033[1m");
-console.log(" Monitor de Mensagens Ativado! Por favor enviem um tweet com a hashtag #ast06.");
+console.log(" Monitor de Mensagens Ativado! Por favor envie um tweet com a hashtag #ast06.");
 console.log("\033[0m");
 var stream = client.stream('statuses/filter', {track: '#ast06'});
 stream.on('data', function(tweet) {
