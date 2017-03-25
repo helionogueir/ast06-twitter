@@ -1,0 +1,27 @@
+{
+  "name": "ast06-twitter",
+  "version": "1.0.0",
+  "description": "Class Test Twitter API",
+  "main": "start.js",
+  "scripts": {
+    "test": "node start.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/helionogueir/ast06-twitter.git"
+  },
+  "keywords": [
+    "twitter",
+    "test",
+    "AST06",
+    "Metrocamp",
+    "Devry",
+    "Marcílio"
+  ],
+  "author": "Helio Nogueira",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/helionogueir/ast06-twitter/issues"
+  },
+  "homepage": "https://github.com/helionogueir/ast06-twitter#readme"
+}
