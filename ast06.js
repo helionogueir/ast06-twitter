@@ -28,7 +28,7 @@ console.log("\033[0m");
 console.log("\033[1m");
 console.log(" Monitor de Mensagens Ativado! Por favor enviem um tweet com a hashtag #ast06.");
 console.log("\033[0m");
-var stream = client.stream('statuses/filter', {track: '#ast06'});
+var stream = client.stream('statuses/filter', {track: '#love'});
 stream.on('data', function(tweet) {
     var text = "";
     // Author
@@ -47,3 +47,6 @@ stream.on('data', function(tweet) {
     console.log(text);
     setTimeout(function(){ /* Wait */}, 2000);
 });
+
+// Error Stream
+stream.on('error', function() {});
