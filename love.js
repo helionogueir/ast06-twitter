@@ -28,14 +28,14 @@ console.log("\033[0m");
 console.log("\033[1m");
 console.log(" Monitor de Mensagens Ativado! Por favor enviem um tweet com a hashtag #ast06.");
 console.log("\033[0m");
-var stream = client.stream('statuses/filter', {track: '#ast06'});
+var stream = client.stream('statuses/filter', {track: '#love'});
 stream.on('data', function(tweet) {
     var text = "";
     // Author
     text += "\033[0m";
     text += "\n--\n";
     text += "\033[1m";
-    text += "\033[96m";
+    text += "\033[91m";
     text += " " + tweet.user.name + " (@" + tweet.user.screen_name + ")\n";
     // Tweet
     text += "\033[0m";
